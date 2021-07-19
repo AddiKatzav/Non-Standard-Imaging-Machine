@@ -1,0 +1,44 @@
+Microsoft Windows [Version 10.0.18363.1440]
+(c) 2019 Microsoft Corporation. All rights reserved.
+File not found - C:\bat\macros.doskey
+
+C:\Users\Dell\my-app\src>npm start
+
+> my-app@0.1.0 start C:\Users\Dell\my-app
+> react-scripts start
+√ Something is already running on port 3000.
+
+Would you like to run the app on another port instead? ... no
+
+C:\Users\Dell\my-app\src>npm start
+
+> my-app@0.1.0 start C:\Users\Dell\my-app
+> react-scripts start
+× Something is already running on port 3000.
+
+Would you like to run the app on another port instead? ... yes
+
+C:\Users\Dell\my-app\src>npm start
+
+> my-app@0.1.0 start C:\Users\Dell\my-app
+> react-scripts start
+√ Something is already running on port 3000.
+
+Would you like to run the app on another port instead? ... yes
+i ｢wds｣: Project is running at http://192.168.56.1/
+i ｢wds｣: webpack output is served from
+i ｢wds｣: Content not from webpack is served from C:\Users\Dell\my-app\public
+i ｢wds｣: 404s will fallback to /
+Starting the development server...
+Compiled with warnings.
+
+src\App.js
+  Line 71:31:  Unexpected use of comma operator  no-sequences
+  Line 78:51:  Unexpected use of comma operator  no-sequences
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Terminate batch job (Y/N)? Y
+
+C:\Users\Dell\my-app\src>

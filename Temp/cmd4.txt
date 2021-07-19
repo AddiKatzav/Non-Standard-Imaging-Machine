@@ -1,0 +1,46 @@
+Microsoft Windows [Version 10.0.18363.1440]
+(c) 2019 Microsoft Corporation. All rights reserved.
+File not found - C:\bat\macros.doskey
+
+C:\Users\Dell\Desktop\Final_Project\react-flask-app>yarn start-api
+yarn run v1.22.10
+$ cd api && flask fun --no-debugger
+Usage: flask [OPTIONS] COMMAND [ARGS]...
+Try 'flask --help' for help.
+
+Error: No such command 'fun'.
+error Command failed with exit code 2.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+C:\Users\Dell\Desktop\Final_Project\react-flask-app>yarn start-api
+yarn run v1.22.10
+$ cd api && flask run --no-debugger
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Usage: flask run [OPTIONS]
+
+Error: Could not locate a Flask application. You did not provide the "FLASK_APP" environment variable, and a "wsgi.py" or "app.py" module was not found in the current directory.
+error Command failed with exit code 2.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+C:\Users\Dell\Desktop\Final_Project\react-flask-app>FLASK_APP=api.py
+'FLASK_APP' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Dell\Desktop\Final_Project\react-flask-app>set FLASK_APP=api.py
+
+C:\Users\Dell\Desktop\Final_Project\react-flask-app>set FLASK_ENV=development
+
+C:\Users\Dell\Desktop\Final_Project\react-flask-app>yarn start-api
+yarn run v1.22.10
+$ cd api && flask run --no-debugger
+ * Serving Flask app "api.py" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Terminate batch job (Y/N)? Y
+
+C:\Users\Dell\Desktop\Final_Project\react-flask-app>

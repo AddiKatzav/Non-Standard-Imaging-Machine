@@ -1,0 +1,14 @@
+{
+	"text_box": {
+		"results_directory": "C:\\ScanResults",
+		"first_integration_time_micro_sec": "10000",
+		"second_integration_time_micro_sec": "50000",
+		"third_integration_time_micro_sec": "250000",
+		"x_axis_resolution": 40,
+		"y_axis_resolution": 20,
+		"FOV_X": 44,
+		"FOV_Y": 22,
+		"delay_between_pixels_milisec": 5
+
+	}
+}

@@ -1,0 +1,19 @@
+# This is the config file if the user load this file it should have the same arguments and values
+
+  text_box:
+    results_directory: C:\Users\Dell\Desktop\Final_Project\Flask_React_Merged\ScanResults
+    integration_time_micro_sec: 300000
+    x_axis_resulotion: 40
+    y_axis_resulotion: 30
+    delay_between_pixels_milisec: 200
+
+  radio_button:
+    # hyper_spectral OR white_target
+    Radio1: hyper_spectral
+
+  checkbox:
+    # on OR off is translated to True OR  False
+    Checkbox1: off  #AllskyCamera
+    Checkbox2: on #RadiationSensor
+    Checkbox3: on #ThermAppTH
+    Checkbox4: on #GPS
