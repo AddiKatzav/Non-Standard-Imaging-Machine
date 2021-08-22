@@ -14,9 +14,9 @@ In the project root directory, you can run several scripts, the 2 major of them 
 
 ### yarn start-api
 
-Launches the api.py file - The server in debug mode.
+Launches the api.py - The server in debug mode.
 
 ### npm start
 
-Launches the App.js file - The client in debug mode.
+Launches the App.js - The client in debug mode.
 
